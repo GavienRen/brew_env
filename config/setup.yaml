@@ -1,0 +1,49 @@
+packages:
+  common:
+    - vim
+    - git
+    - curl
+    - htop
+    - zsh
+    - cmake
+    - gcc
+    - g++
+
+  linux:
+    - openssh-server
+    - net-tools
+    - silversearcher-ag
+    - build-essential
+    - bison
+    - dkms
+    - ethtool
+    - android-tools-adb
+    - libssl-dev
+    - sqlite3
+    - libsqlite3-dev
+    - liblzma-dev
+    - libreadline-dev
+
+  macos:
+    - the_silver_searcher
+
+mirrors:
+  linux:
+    apt: https://mirrors.tuna.tsinghua.edu.cn/ubuntu/
+  macos:
+    brew: https://mirrors.tuna.tsinghua.edu.cn/homebrew/
+  pip: https://mirrors.aliyun.com/pypi/simple/
+
+git:
+  user:
+    name: "Gavien.Ren"
+    email: "gavien.ren@foxmail.com"
+  editor: "vim"
+
+zsh:
+  theme: "powerlevel10k/powerlevel10k"
+  plugins:
+    - git
+    - z
+    - zsh-syntax-highlighting
+    - zsh-autosuggestions
